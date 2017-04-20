@@ -1,5 +1,5 @@
 # Invisible Fork Bomb for Arduino and Ducky
-The script creates and starts a vbs that executes exponentially cmd.exe (Fork bomb -> Freezes the PC).
+The script creates and starts a vbs that executes exponentially cmd.exe without visible windows (Fork bomb -> Freezes the PC).
 
 # About...
 Author: BlueArduino20
