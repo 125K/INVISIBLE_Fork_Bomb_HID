@@ -1,5 +1,5 @@
 # Invisible Fork Bomb for Arduino and Ducky
-The HID script creates a vbs that executes exponentially the software you want (Fork bomb).
+The script creates and starts a vbs that executes exponentially cmd.exe (Fork bomb -> Freezes the PC).
 
 # About...
 Author: BlueArduino20
