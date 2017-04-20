@@ -8,7 +8,9 @@ Version 1.0
 
 # Code for Rubber Ducky
 
-<pre><code>GUI r
+<pre><code>DELAY 1000
+REM ^ You should set more delay time if your computer is slow or if the script doesn't work correctly.
+GUI r
 DELAY 500
 STRING cmd
 ENTER
