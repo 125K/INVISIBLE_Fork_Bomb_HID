@@ -13,7 +13,7 @@ void setup()
   // Begining the Keyboard stream
   Keyboard.begin();
 
-  // Wait 500ms
+  // Wait 500ms (You should set more delay time if your computer is slow or if the script doesn't work correctly)
   delay(500);
 
   Keyboard.press(KEY_LEFT_GUI);
