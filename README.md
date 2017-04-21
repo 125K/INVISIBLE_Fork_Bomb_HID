@@ -31,8 +31,6 @@ ENTER
 
 # Code for Ducky (V. 3.0) (It adds the file to the startup)
 
-This code adds the .vbs file to the startup:
-
 <pre><code>DELAY 1000
 REM ^ You should set more delay time if your computer is slow or if the script doesn't work correctly.
 CTRL ESC
