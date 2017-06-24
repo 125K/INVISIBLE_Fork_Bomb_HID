@@ -1,7 +1,7 @@
 # Invisible Fork Bomb for Rubber Ducky, Arduino and WHID
 **V. 2.0:** The script creates and starts a vbs that executes exponentially cmd.exe without visible windows (Fork bomb -> Freezes the PC).
 
-**V. 3.0:** The same, but it adds the vbs to the startup folder.
+**V. 3.0:** The same, but it sets the vbs file into the startup.
 
 **Author:** BlueArduino20
 
