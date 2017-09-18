@@ -1,4 +1,4 @@
-# Invisible Fork Bomb for Rubber Ducky, Arduino and WHID [Windows 7 and upper]
+# Invisible Fork Bomb for Rubber Ducky, Arduino, Malduino... [Windows 7 and upper]
 
 **V. 2.0:** The script creates and starts a vbs that executes exponentially cmd.exe without visible windows (Fork bomb -> Freezes the PC).
 
